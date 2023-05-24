@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hostování souborů by Govrosh150</title>
+  <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Hostování souborů</h1>
+  <hr>
+  <form id="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
+    <input id="uploadForm_File" type="file" name="file">  Maximální velikost souboru: 100 MB
+ <br><progress id="progressBar" value="0" max="100"></progress>
+    <input id="uploadForm_Submit" type="submit" value="Nahrát soubor">
+   
+    <div class="form-upload__container">
+      <span class="form-upload__status" id="uploadForm_Status"></span>
+      <span id="uploadForm_Size"></span>
+    </div>
+  </form>
+<p> Dostupné v jiných jazycích <a href="index.html">English</a>, <a href="ru.html">Russian</a>
+<hr>
+<address>Apache/2.4.41 (Ubuntu) Server at 195.246.110.130 Port 443</address>
+<script scr="proggresbar.js"></script>
+</body>
+</html>

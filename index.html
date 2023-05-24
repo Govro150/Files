@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>File Hosting</title>
+  <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>File Hosting</h1>
+  <hr>
+  <form id="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
+    <input id="uploadForm_File" type="file" name="file"> Max file size 100 MB
+ <br><progress id="progressBar" value="0" max="100"></progress>
+    <input id="uploadForm_Submit" type="submit" value="Upload">
+   
+    <div class="form-upload__container">
+      <span class="form-upload__status" id="uploadForm_Status"></span>
+      <span id="uploadForm_Size"></span>
+    </div>
+  </form>
+<p>Also aviable in other languages <a href="ru.html">Russian</a>, <a href="cz.html">Czech</a>
+<hr>
+<address>Apache/2.4.41 (Ubuntu) Server at 195.246.110.130 Port 443</address>
+</body>
+</html>

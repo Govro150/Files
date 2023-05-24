@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Файлообменник</title>
+  <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Файлообменник</h1>
+  <hr>
+  <form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="file"> Максимальный размер файла 100 MB
+    <input type="submit" value="Загрузить">
+  </form>
+<h1><a href="index.html">Англиская версия *ТЫК*</a>
+<hr>
+<address>Apache/2.4.41 (Ubuntu) Server at 195.246.110.130 Port 443</address>
+</body>
+</html>
